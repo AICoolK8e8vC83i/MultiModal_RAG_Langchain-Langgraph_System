@@ -90,7 +90,7 @@ def load_markdown_files(base_paths):
 memory = {"entries": []}
 
 # === FAISS RAG Setup ===
-base_paths = ['800quantumtrillion_strategy', 'agi_alignment', 'AI_code', 'ai_ethics', 'arxiv_research_papers','Data_Engineering&Data_Science', 'digital_soverignty', 'mental_health_cognition', 'mental_models','Notion_Projects_Tasks_Description', 'OpenCv&Yolo', 'Pytorch', 'Science_Behind_DNA_Looks_Height','Tensorflow']
+base_paths = ['Insert Folders Containing .md Files']
 
 docs_raw = load_markdown_files(base_paths)
 documents = [Document(page_content=doc["text"], metadata=doc["metadata"]) for doc in docs_raw]
